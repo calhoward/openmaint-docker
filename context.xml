@@ -1,0 +1,12 @@
+<Context>
+    <Resource name="jdbc/cmdbuild" auth="Container"
+              type="javax.sql.DataSource"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://db:5432/openmaint"
+              username="openmaint"
+              password="openmaint"
+              maxActive="20"
+              maxIdle="10"
+              maxWait="-1"/>
+</Context>
